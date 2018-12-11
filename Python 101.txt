@@ -1,0 +1,39 @@
+Coding Club 101
+Introduction to Python
+
+1. Hello World program.
+print("Hello World")
+2. take input and print it
+    No data type needed. Fun language!!
+    Executes line wise
+3. Arithmetic operations: make a calculator
+    Default input is taken in string format
+    else if in C++ is elif in python
+    no semicolons at the end of each line
+    colon at the end of if condition
+    comment is made by using # at the start of the line
+4. Loops
+    for j in range(2,90): 
+    90 is not displayed.
+    for single line display print(j,end="")
+    String cant be concatenated with string, to resolve this, convert int to string
+5. Functions
+    def cube(n):
+          ans=n*n*n
+          return ans
+    multiline comment: use """ at start and end
+6. Arrays 
+    no need of specifying size
+    runs=[1,2,3]
+    for i in range(0,4):    (also) for i in runs: *This command enables to run thru the length of the array without any condition*
+    .....
+    runs.append("xy")  It adds another element to the array
+    len(array name) gives the size of the array
+    print(array1+array2) gives merged array
+7. Strings
+    split("<ch>") will split the string on all occurences of <ch>  and store the rest of the split string in an array
+8. Maths library
+    from math import *
+    from math import sqrt as lol (used to give an alias)
+9. find tag finds the first instance and stops
+    find_all  finds all the instances 
